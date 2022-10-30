@@ -1,0 +1,51 @@
+.houses{
+    padding:4em 8em;
+    grid-gap: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    place-items: center;
+}
+.img-cont{
+    text-align: center;
+    width: 37vh;
+    height: 37vh;
+    border: 1px solid rgba(0, 128, 0, 0.658);
+    padding: 6px 0 0 0;
+    border-radius:5px;
+}
+.img-cont:hover{
+    border: 1.5px solid green;
+    /* padding: 5px 0 0 0; */
+}
+.img-cont h5{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.houses img{
+    width: 35vh;
+    height: 30vh;
+}
+.error-cont{
+    margin: 0 auto;
+   width: 15em;
+    /* background-color: grey; */
+    /* padding: 1em 6em; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media(max-width:500px){
+    .about-slider-text{
+        /* position: relative; */
+        font-size: 32px;
+        text-align: center;
+        margin: 0 auto;
+        /* right: 5%; */
+    /* color: aqua!important; */
+    }
+    .img-cont h5{
+        margin-top:14px;
+        font-size: 14px;
+    }
+ }

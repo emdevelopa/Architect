@@ -1,0 +1,43 @@
+
+#about-slider-text-part{
+right: 0;
+top: 55%;
+}
+.about-slider-text{
+    position: absolute;
+    letter-spacing: 8px;
+    font-size: 55px;
+    right: 15%;
+    font-weight: bold;
+}
+.about-slider-text span{
+    color: rgba(21, 213, 21, 0.722)
+}
+#ger{
+    height: 500px;
+    background:linear-gradient(20deg,rgba(0, 0, 0, 0.618),rgba(0, 0, 0, 0.529)),url(./buidings/jocke-wulcan-0Q7yLkGSHpA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* z-index: 2; */
+}
+.c-m{
+    display: grid;
+    /* gap: 100px; */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    /* height: 40em; */
+    /* grid-auto-rows: 200px; */
+}
+.cm1 h4{
+    text-align: center;
+    letter-spacing: 4px;
+}
+.cm1{
+    padding:2em;
+}
+@media(max-width:500px){
+   .c-m{
+    display: flex;
+    flex-direction: column;
+   }
+}
